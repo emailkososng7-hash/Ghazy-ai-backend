@@ -1,0 +1,16 @@
+{
+  "name": "ghazy-ai-backend",
+  "version": "1.0.0",
+  "description": "Backend sederhana untuk Ghazy AI - menghubungkan frontend chat ke Anthropic API dengan aman",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "@anthropic-ai/sdk": "^0.27.0"
+  }
+}
